@@ -22,5 +22,6 @@ data:
   {{ if .originalsPath }}PHOTOPRISM_ORIGINALS_PATH: {{ .originalsPath }}{{ end }}
   {{ if .importPath    }}PHOTOPRISM_IMPORT_PATH: {{ .importPath }}{{ end }}
   {{ if .storagePath   }}PHOTOPRISM_STORAGE_PATH: {{ .storagePath }}{{ end }}
+  {{ if .cachePath   }}PHOTOPRISM_CACHE_PATH: {{ .cachePath }}{{ end }}
 {{- end }}
 {{- end }}
